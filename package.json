@@ -1,0 +1,14 @@
+{
+    "name": "uptasknodejs",
+    "version": "1.0.0",
+    "description": "Proyecto Uptask con Node y MVC",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index"
+    },
+    "author": "Patricio Contreras Ortiz",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
