@@ -8,6 +8,9 @@ const log = console.log
 const app = express();
 app.use(morgan(':method :url :status :response-time ms'))
 
+// Donde cargar los archivos estaticos
+app.use(express.static('public'));
+
 // habilitar pug
 // set para agregar valor 
 app.set('view engine', 'pug');
